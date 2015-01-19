@@ -6,3 +6,5 @@ A slideshow to randomly display images from a folder on streams via CLRBrowser p
 3. Launch index.html in a browser or add as a CLRBrowser source to use in-stream.
 
 Use the Mugmass branch to randomly choose an image from the folder, meant for use in giveaways.
+
+![alt text](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
