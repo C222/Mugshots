@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Bangers);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 body
 {
@@ -8,23 +8,28 @@ body
 
 img
 {
-    transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out,height 1s linear,width 1s linear;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
     height: 70%;
     padding:0;
 }
+#shot1
+{
+    height: 40%;
+}
 h1
 {
     margin:0;
     padding:0;
-    font-family: 'Bangers';
+    font-family: 'Lobster';
     position: absolute;
     font-size: 6em;
-    top: 80%;
+    top: 70%;
     /*left: 40%;*/
     width:99%;
+	height:50%;
     text-align: center;
     z-index: 50;
     text-shadow: 1px 1px 0px rgba(255,255,255,0.5),

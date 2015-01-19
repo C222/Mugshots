@@ -1,5 +1,7 @@
 list=[ 
-,"DrProfPatrick.png" 
-,"far_cry_4.jpg" 
-,"Mellow_Nebula.jpeg" 
+,"ArmA 3.jpg" 
+,"DayZ.jpg" 
+,"DCS Huey.jpg" 
+,"Far Cry 4.jpg" 
+,"Minecraft.jpg" 
 ]; 
