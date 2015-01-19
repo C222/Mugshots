@@ -1,3 +1,6 @@
+delay = 3000;
+max_angle = 20;
+
 console.log(list);
 
 current = "shot1";
@@ -22,7 +25,7 @@ function nextImage()
 	var name_ele = document.getElementById("name");
     name_ele.innerHTML = rand.split(".")[0];
 	img_ele.setAttribute("src", dir+rand);
-    deg = Math.floor(Math.random() * 40) - 20;
+    deg = Math.floor(Math.random() * (2*max_angle)) - max_angle;
     img_ele.style.transform = "rotate("+deg+"deg)";
     /*while(!loaded){console.log(loaded);}
     loaded = false;*/
@@ -36,4 +39,4 @@ function nextImage()
 }
 
 nextImage();
-setInterval("nextImage();",3000);
+setInterval("nextImage();",delay);
